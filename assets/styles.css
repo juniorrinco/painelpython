@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Background Geral */
+html {
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(to right, #044f67, #0a8a9f) !important;
+  font-family: 'Asap', sans-serif;
+}
+
+/* Pills Color */
+.nav-pills .nav-link.active {
+  background-color: #00AE9D;
+  color: #ffffff;
+  font-family: 'Asap', sans-serif;
+  font-weight: bolder;
+}
+
+.nav-pills .nav-link {
+  color: rgb(255, 255, 255);
+
+
+}
+
+.SIDEBAR_STYLE {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 18rem;
+  padding: 2rem 1rem;
+  /*background-color: #f8f9fa;*/
+  background-image: linear-gradient(to right, #044f67, #0a8a9f);
+  /* Ajuste as cores conforme desejado */
+  box-shadow: 1px 5px 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.carteira {
+  background-color: #C9D200;
+  border-color: #C9D200;
+  display: inline-block;
+  width: 100%;
+  font-size: 1.50rem;
+  color: #003641;
+  font-family: 'Asap', sans-serif;
+  font-weight: bolder;
+
+}
+
+.carteira:active {
+  background-color: #c4bebe !important;
+  /* Cor de fundo quando focado/clicado */
+  border-color: #c4bebe !important;
+  /* Cor da borda quando focado/clicado */
+  box-shadow: none !important;
+  /* Remove sombra se necessário */
+}
+
+.carteira:hover {
+  background-color: #cfd46e;
+  /* Cor de fundo ao passar o mouse */
+  border-color: #C9D200;
+  /* Cor da borda ao passar o mouse */
+}
+
+.captacao {
+  background-color: #00AE9D;
+  border-color: #00AE9D;
+  display: inline-block;
+  width: 100%;
+  font-size: 1.50rem;
+  color: #ffffff;
+  font-family: 'Asap', sans-serif;
+  font-weight: bolder;
+
+}
+
+.captacao:active {
+  background-color: #c4bebe !important;
+  /* Cor de fundo quando focado/clicado */
+  border-color: #c4bebe !important;
+  /* Cor da borda quando focado/clicado */
+  box-shadow: none !important;
+  /* Remove sombra se necessário */
+}
+
+.captacao:hover {
+  background-color: #39c5b7;
+  /* Cor de fundo ao passar o mouse */
+  border-color: #39c5b7;
+  /* Cor da borda ao passar o mouse */
+}
+
+.cooperativismo {
+  background-color: #7DB61C;
+  border-color: #7DB61C;
+  display: inline-block;
+  width: 100%;
+  font-size: 1.50rem;
+  color: #003641;
+  font-family: 'Asap', sans-serif;
+  font-weight: bolder;
+
+
+}
+
+.cooperativismo:active {
+  background-color: #c4bebe !important;
+  /* Cor de fundo quando focado/clicado */
+  border-color: #c4bebe !important;
+  /* Cor da borda quando focado/clicado */
+  box-shadow: none !important;
+  /* Remove sombra se necessário */
+}
+
+.cooperativismo:hover {
+  background-color: #a9da55;
+  /* Cor de fundo ao passar o mouse */
+  border-color: #a9da55;
+  /* Cor da borda ao passar o mouse */
+}
+
+.produtos {
+  background-color: rgb(255, 255, 255);
+  border-color: #ffffff;
+  display: inline-block;
+  width: 100%;
+  font-size: 1.50rem;
+  color: #1f0707;
+  font-family: 'Asap', sans-serif;
+  font-weight: bolder;
+
+}
+
+.produtos:active {
+  background-color: #c4bebe !important;
+  /* Cor de fundo quando focado/clicado */
+  border-color: #c4bebe !important;
+  /* Cor da borda quando focado/clicado */
+  box-shadow: none !important;
+  /* Remove sombra se necessário */
+}
+
+.produtos:hover {
+  background-color: #969696;
+  /* Cor de fundo ao passar o mouse */
+  border-color: #969696;
+  /* Cor da borda ao passar o mouse */
+}
+
+.indicadores {
+  background-color: #00ae9d;
+  border-color: #00ae9d;
+  display: inline-block;
+  width: 100%;
+  font-size: 1.50rem;
+  color: #ffffff;
+  font-family: 'Asap', sans-serif;
+  font-weight: bolder;
+}
+
+.indicadores:active {
+  background-color: #c4bebe !important;
+  /* Cor de fundo quando focado/clicado */
+  border-color: #c4bebe !important;
+  /* Cor da borda quando focado/clicado */
+  box-shadow: none !important;
+  /* Remove sombra se necessário */
+}
+
+.indicadores:hover {
+  background-color: #39c5b7;
+  /* Cor de fundo ao passar o mouse */
+  border-color: #39c5b7;
+  /* Cor da borda ao passar o mouse */
+}
+
+.color_fundo_card {
+  background-color: #003641;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* Exemplo de sombra */
+  transition: 0.3s;
+  /* Animação opcional para o hover */
+}
+
+.color_fundo_titulo_card {
+  background-color: #C9D200;
+
+}
+
+.card-title {
+
+  /* ajuste o tamanho da fonte conforme necessário */
+  font-family: 'Asap', sans-serif;
+  font-weight: bolder;
+  /* espaço entre o título e o valor */
+  text-align: center;
+  /* centraliza o texto */
+
+}
+
+.card-text {
+  /* ajuste o tamanho da fonte conforme necessário */
+  text-align: center;
+  /* centraliza o texto */
+  font-family: 'Asap', sans-serif;
+  font-weight: bolder;
+
+}
+
+/* Opcional: Efeito de hover para aumentar a sombra quando o mouse passa sobre o cartão */
+.color_fundo_card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.meu-botao-link {
+  text-decoration: none;
+  width: 357px;
+
+}
+
+.meu-botao-link .btn {
+  display: inline-block;
+  width: 357px;
+
+}
+
+
+.text-header {
+  color: #ffffff;
+  /* Cor para o título principal */
+  font-family: 'Asap', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.text-body {
+  /* Cor para o texto normal */
+  color: #ffffff !important;
+  font-weight: bolder;
+  text-align: center;
+  bottom: 100px;
+}
+
+.text-carteira,
+.text-captacao,
+.text-cooperativismo,
+.text-produtos,
+.text-indicadores {
+  color: #c9d200;
+  font-weight: bolder;
+  /* Cor para os subtítulos */
+}
+
+.text-list li {
+  color: #ffffff !important;
+  /* Cor para os itens da lista */
+  font-weight: bolder;
+
+}
+
+.divider {
+  border-top: 1px solid #ffffff;
+  /* Cor para a linha divisória */
+}
+
+.text-footer {
+  color: #ffffff;
+  /* Cor para o rodapé */
+}
+
+.sobre-container {
+  padding: 20px;
+}
+
+
+
+
+
+/* Defina o tamanho da fonte para telas pequenas */
+.text-carteira,
+.text-captacao,
+.text-cooperativismo,
+.text-produtos,
+.text-indicadores,
+.text-body,
+.card-text,
+.card-title,
+.nav-pills .nav-link.active {
+  font-size: 20px;
+}
+
+/* Para telas com largura mínima de 768px, aumente o tamanho da fonte */
+@media (min-width: 768px) {
+
+  .text-carteira,
+  .text-captacao,
+  .text-cooperativismo,
+  .text-produtos,
+  .text-indicadores,
+  .text-body,
+  .card-text,
+  .card-title,
+  .nav-pills .nav-link.active {
+    font-size: 20px;
+  }
+}
+
+/* Para telas com largura mínima de 992px, aumente ainda mais o tamanho da fonte */
+@media (min-width: 992px) {
+
+  .text-carteira,
+  .text-captacao,
+  .text-cooperativismo,
+  .text-produtos,
+  .text-indicadores,
+  .text-body,
+  .card-text,
+  .card-title,
+  .nav-pills .nav-link.active {
+    font-size: 24px;
+  }
+}
+
+.grafico-arredondado .js-plotly-plot .plotly {
+
+  /* Arredondamento de cantos */
+  overflow: hidden;
+  /* Garante que o gráfico não sobreponha os cantos arredondados 
+  border-radius: 15px;
+  background-color: rgb(29, 7, 7, 0.1);*/
+  color: #1f0707 !important;
+
+}
+
+.grafico-arredondado2 .js-plotly-plot .plotly {
+
+  /* Arredondamento de cantos */
+  overflow: hidden;
+  /* Garante que o gráfico não sobreponha os cantos arredondados 
+  border-radius: 15px;
+  background-color: rgb(29, 7, 7, 0.1);*/
+  top: 1000px;
+  
+
+  color: #1f0707 !important;
+
+}
+
+.botão_modal {
+  display: inline-block;
+  background-color: #39c5b7;
+  border-color: #39c5b7 !important;
+  font-family: 'Asap', sans-serif;
+  font-weight: bolder;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* Exemplo de sombra */
+  transition: 0.3s;
+  font-size: 20px;
+  left: 10px !important;
+  bottom: 10px;
+}
+
+.botão_modal:active {
+  background-color: #c4bebe !important;
+  /* Cor de fundo quando focado/clicado */
+  border-color: #c4bebe !important;
+  /* Cor da borda quando focado/clicado */
+  box-shadow: none !important;
+  /* Remove sombra se necessário */
+}
+
+.botão_modal:hover {
+  background-color: #c4bebe;
+  /* Cor de fundo ao passar o mouse */
+  border-color: #c4bebe;
+  /* Cor da borda ao passar o mouse */
+}
+
+
+@media (max-width: 901px) {
+
+  /* Tamanho lg do Bootstrap */
+  .card-title-lg {
+    display: none;
+  }
+}
+
+@media (min-width: 901px) {
+
+  /* Tamanho lg do Bootstrap */
+  .card-title-sm {
+    display: none;
+
+  }
+}
+
+.bg-soft-success {
+  background-color: rgba(0, 201, 167, .1) !important;
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;
+  border-radius: 0.3125rem;
+}
+
+.bg-soft-danger {
+  background-color: rgba(237, 76, 120, .1) !important;
+  --bs-text-opacity: 1;
+  color: rgb(237, 76, 120) !important;
+  border-radius: 0.3125rem;
+}
+
+
+
+
+
+
+
+.color_fundo_card_produtos {
+  background-color: #f1f1f2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* Exemplo de sombra */
+  transition: 0.3s;
+  /* Animação opcional para o hover */
+  border-radius: 7px;
+}
+
+.combocredito {
+  background-color: #4b3d8c;
+  border-color: #4b3d8c;
+  display: inline-block;
+  width: 100%;
+  height: 51px;
+  font-size: 1.50rem;
+  color: #f1f1f2;
+  font-family: 'Asap', sans-serif;
+  font-weight: bolder;
+  border-radius: 7px;
+
+}
+
+
+
+.comboinvestimento {
+  background-color: #c9d200;
+  border-color: #c9d200;
+  display: inline-block;
+  width: 100%;
+  height: 51px;
+  font-size: 1.50rem;
+  color: #003641;
+  font-family: 'Asap', sans-serif;
+  font-weight: bolder;
+  border-radius: 7px;
+
+}
+
+.comborecebimento {
+  background-color: #003641;
+  border-color: #003641;
+  display: inline-block;
+  width: 100%;
+  height: 51px;
+  font-size: 1.50rem;
+  color: #f1f1f2;
+  font-family: 'Asap', sans-serif;
+  font-weight: bolder;
+  border-radius: 7px;
+
+}
+
+
+
+.comboprotecao {
+  background-color: #00ae9d;
+  border-color: #00ae9d;
+  display: inline-block;
+  width: 100%;
+  height: 51px;
+  font-size: 1.50rem;
+  color: #f1f1f2;
+  font-family: 'Asap', sans-serif;
+  font-weight: bolder;
+  border-radius: 7px;
+
+}
+
+
+
+.comborural {
+  background-color: #446519;
+  border-color: #446519;
+  display: inline-block;
+  width: 100%;
+  height: 51px;
+  font-size: 1.50rem;
+  color: #f1f1f2;
+  font-family: 'Asap', sans-serif;
+  font-weight: bolder;
+  border-radius: 7px;
+
+}
