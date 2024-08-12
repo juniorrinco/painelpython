@@ -1,0 +1,13 @@
+.bg-soft-success {
+    background-color: rgba(0,201,167,.1) !important;
+    --bs-text-opacity: 1;
+    color : rgba(var(--bs-success-rgb),var(--bs-text-opacity)) !important;
+    border-radius: 0.3125rem;
+}
+
+.bg-soft-danger {
+    background-color: rgba(237,76,120,.1)!important;
+    --bs-text-opacity: 1;
+    color: rgb(237, 76, 120)!important;
+    border-radius: 0.3125rem;
+}

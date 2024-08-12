@@ -94,7 +94,7 @@ body {
   /* Cor da borda ao passar o mouse */
 }
 
-.cooperativismo {
+.clientes {
   background-color: #7DB61C;
   border-color: #7DB61C;
   display: inline-block;
@@ -107,7 +107,7 @@ body {
 
 }
 
-.cooperativismo:active {
+.clientes:active {
   background-color: #c4bebe !important;
   /* Cor de fundo quando focado/clicado */
   border-color: #c4bebe !important;
@@ -116,7 +116,7 @@ body {
   /* Remove sombra se necessário */
 }
 
-.cooperativismo:hover {
+.clientes:hover {
   background-color: #a9da55;
   /* Cor de fundo ao passar o mouse */
   border-color: #a9da55;
@@ -247,7 +247,7 @@ body {
 
 .text-carteira,
 .text-captacao,
-.text-cooperativismo,
+.text-clientes,
 .text-produtos,
 .text-indicadores {
   color: #c9d200;
@@ -283,7 +283,7 @@ body {
 /* Defina o tamanho da fonte para telas pequenas */
 .text-carteira,
 .text-captacao,
-.text-cooperativismo,
+.text-clientes,
 .text-produtos,
 .text-indicadores,
 .text-body,
@@ -298,7 +298,7 @@ body {
 
   .text-carteira,
   .text-captacao,
-  .text-cooperativismo,
+  .text-clientes,
   .text-produtos,
   .text-indicadores,
   .text-body,
@@ -314,7 +314,7 @@ body {
 
   .text-carteira,
   .text-captacao,
-  .text-cooperativismo,
+  .text-clientes,
   .text-produtos,
   .text-indicadores,
   .text-body,
@@ -344,7 +344,7 @@ body {
   border-radius: 15px;
   background-color: rgb(29, 7, 7, 0.1);*/
   top: 1000px;
-  
+
 
   color: #1f0707 !important;
 
